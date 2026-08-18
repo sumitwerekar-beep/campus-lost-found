@@ -1,0 +1,101 @@
+export const INITIAL_MOCK_ITEMS = [
+  {
+    id: 'item-1',
+    name: 'MacBook Pro 14" (Space Gray)',
+    description: 'Left on the 2nd floor study desk near the west window. Has a metallic gray sticker on the back lid and comes in a black felt sleeve.',
+    category: 'Electronics',
+    location: 'Central Library - 2nd Floor Study Area',
+    date: '2026-08-17',
+    status: 'Lost',
+    imageUri: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Alex Rivera',
+    contactPhone: '+1 (555) 234-5678',
+    contactEmail: 'alex.rivera@campus.edu',
+    isUserReported: true,
+    createdAt: '2026-08-17T14:30:00.000Z'
+  },
+  {
+    id: 'item-2',
+    name: 'Hydro Flask Water Bottle (Blue)',
+    description: '32oz Cobalt Blue Hydro Flask with stickers (Campus Eco Club & National Parks). Found near the bench outside gym entrance.',
+    category: 'Sports & Bags',
+    location: 'Campus Gymnasium - Main Entrance',
+    date: '2026-08-18',
+    status: 'Found',
+    imageUri: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Sarah Chen',
+    contactPhone: '+1 (555) 987-6543',
+    contactEmail: 'sarah.chen@campus.edu',
+    isUserReported: false,
+    createdAt: '2026-08-18T09:15:00.000Z'
+  },
+  {
+    id: 'item-3',
+    name: 'Campus Student ID Card & Keyring',
+    description: 'Student ID card belonging to Jordan Taylor along with 3 keys on a red lanyard.',
+    category: 'Keys & Cards',
+    location: 'Student Union Food Court',
+    date: '2026-08-16',
+    status: 'Lost',
+    imageUri: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Jordan Taylor',
+    contactPhone: '+1 (555) 456-7890',
+    contactEmail: 'jordan.t@campus.edu',
+    isUserReported: true,
+    createdAt: '2026-08-16T16:00:00.000Z'
+  },
+  {
+    id: 'item-4',
+    name: 'Sony Noise-Canceling Headphones',
+    description: 'Black Sony WH-1000XM4 headphones in a black zippered hard case. Found under seat 4B in Lecture Hall 101.',
+    category: 'Electronics',
+    location: 'Science Building - Lecture Hall 101',
+    date: '2026-08-15',
+    status: 'Found',
+    imageUri: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Campus Security Office',
+    contactPhone: '+1 (555) 000-1122',
+    contactEmail: 'security@campus.edu',
+    isUserReported: false,
+    createdAt: '2026-08-15T11:45:00.000Z'
+  },
+  {
+    id: 'item-5',
+    name: 'Denim Jacket with Pins',
+    description: 'Vintage blue denim jacket with several enamel pins on the lapel. Left on the back of a chair in cafeteria.',
+    category: 'Clothing & Accessories',
+    location: 'North Dining Hall',
+    date: '2026-08-14',
+    status: 'Claimed',
+    imageUri: 'https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Maya Patel',
+    contactPhone: '+1 (555) 333-2211',
+    contactEmail: 'maya.p@campus.edu',
+    isUserReported: true,
+    createdAt: '2026-08-14T18:20:00.000Z'
+  },
+  {
+    id: 'item-6',
+    name: 'Calculus & Linear Algebra Textbook',
+    description: 'Stewart Calculus 9th Edition textbook with yellow highlighting in chapters 3 and 4.',
+    category: 'Books & Stationery',
+    location: 'Engineering Quad Bench',
+    date: '2026-08-18',
+    status: 'Lost',
+    imageUri: 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=800&auto=format&fit=crop&q=80',
+    contactName: 'Alex Rivera',
+    contactPhone: '+1 (555) 234-5678',
+    contactEmail: 'alex.rivera@campus.edu',
+    isUserReported: true,
+    createdAt: '2026-08-18T10:00:00.000Z'
+  }
+];
+
+export const INITIAL_USER_PROFILE = {
+  name: 'Alex Rivera',
+  studentId: 'CS-2024-8842',
+  email: 'alex.rivera@campus.edu',
+  phone: '+1 (555) 234-5678',
+  department: 'Computer Science & Engineering',
+  avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80'
+};
